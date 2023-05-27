@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    font-family: 'arial', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.container-md .card {
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    border-radius: 2%;
+    
+    margin-top: 90px;
+    width: 100%;
+    border-left: 5px solid #006BB7;
+    border-right: 5px solid #D30529;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white
+}
+.container-md img {
+    width: 100%;
+    height: 100%;
+}
+
+.descricao p {
+    color: white;
+    text-align: center;
+    
+}
+.d2, .d3, .d1, .d0, .d4,.d5, .carr, .c1, .c2, .c3, .c4{
+    padding: 2px;
+    margin: 2px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.descricao .t1 {
+    color: white;
+    padding: 2px;
+    margin: 2px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+.descricao .carr{
+    color:#006BB7;
+}
+.vocesabia p {
+    color: white;
+     margin: 10px;
+    
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.8); 
+}

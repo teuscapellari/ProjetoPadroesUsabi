@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-md {
+    flex-flow: row wrap;
+}
+
+body {
+    background-image: url(/img/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+    font-family: 'arial', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.container-md .card {
+    height: 230px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 10px;
+    padding: 8px;
+    margin-top: 90px;
+}
+
+
+.container-md img {
+    width: 100%;
+    height: 100%;
+}
+
+.descricao p {
+    color: white;
+    text-align: center;
+    
+}
+.d2, .d3, .d1 {
+    padding: 2px;
+    margin: 2px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+/*
+div p {
+    color: black;
+    
+    margin-left: 20%;
+    margin-top: 4%;
+    font-weight: bold;
+       
+}
+/*
+.p1, .p2 {
+    margin-top: -4%;
+}
+*/
+.descricao p {
+    justify-content: center;
+    align-items: center;
+    
+}
+

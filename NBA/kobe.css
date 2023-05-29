@@ -179,7 +179,6 @@ ul {
 }
 .kobe .card {
 
-    height: 200px;
     width: 200px;
     margin-left: 20%;
     margin-top: 5%;
@@ -192,12 +191,8 @@ ul {
     font-size: 15px;
     color: white;
     margin-left: 45%;
-    margin-top: 50%;
+    margin-top: 5%;
     
-    
-}
-.textos
-{
     
 }
 .itemC .p2 {
@@ -235,4 +230,40 @@ ul {
     font-weight: bold;
     color: white;
     margin-left: 25%;
+}
+
+@media (min-width: 500px) AND (max-width: 800px){
+    .itemB, .itemC{
+        display: none;
+    }
+    .melhorJogador h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    
+    .melhorJogador p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 801px) AND (max-width: 999px) {
+    .card img{
+
+        height: 300px;
+    }
+}
+
+@media (min-width: 1000px) AND (max-width: 1400px) {
+    .melhorJogador p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }

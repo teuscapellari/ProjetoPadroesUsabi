@@ -7,7 +7,7 @@
 
 #imagem {
     background-image: url(img/fundo7.jpg);
-    
+    background-attachment: fixed; 
     background-size: cover;
 }
 .logo img{
@@ -142,12 +142,28 @@ div p {
         top: 70px;
         width: 100%;
     }
-/*
 
+    
 
-}
+    @media (min-width: 400px) AND (max-width: 699px){
+        .titulo{
+            font-size: 40px;
+        }
 
- 
+        .row{
+            display: flex;
+            justify-content: center;
+        }
+
+        .container-md .col-4, .container-md .col-lg-3{
+            min-width: 250px;
+        }
+    }
+
+@media (min-width: 700px) AND (max-width: 850px){
+    .titulo{
+        font-size: 50px;
+    }
 }
 
 

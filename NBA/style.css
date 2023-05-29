@@ -173,7 +173,7 @@ ul {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     color: white;
-    margin-left: 15%;
+    margin-left: 27%;
     margin-top: 1%;
     
     
@@ -183,7 +183,7 @@ ul {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    margin-left: 30%;
+    margin-left: 35%;
     margin-bottom: 40%;
 }
 .itemC .p3 {
@@ -191,7 +191,7 @@ ul {
     font-size: 15px;
     color: white;
     margin-top: 1%;
-    margin-left: 25%;
+    margin-left: 1%;
 }
 .itemC .p4 
 {
@@ -199,21 +199,21 @@ ul {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 .itemC .p5{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     color: white;
     
-    margin-left: 15%;
+    margin-left: 25%;
 }
 .itemC .p6 {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: white;
-    margin-left: 10%;
+    margin-left: 25%;
 }
 .itemC .textos {
     display: flex;
@@ -271,7 +271,7 @@ ul {
         width: 150px;
     }
     .img3 img {
-        margin-left: 5%;
+        margin-left: 15%;
         height: 120px;
         width: 150px;
     }
@@ -335,7 +335,7 @@ ul {
         width: 130px;
     }
     .img3 img {
-        margin-left: 5%;
+        margin-left: 15%;
         height: 100px;
         width: 130px;
     }
@@ -373,7 +373,7 @@ ul {
         width: 140px;
     }
     .img3 img {
-        margin-left: 5%;
+        margin-left: 15%;
         height: 110px;
         width: 140px;
     }

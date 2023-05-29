@@ -1,72 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-image: url(/img/lebronjames.jpg);
+    display: grid;
+    grid-template-areas: 'content header'
+                         'content aside';
+    grid-template-rows: 15vh 85vh;
+    grid-template-columns: 78% 22%;
+}
+#imgfundo {
+    background-image: url(img/peakpx\ \(2\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.logo img{
+    height: 50px;
+    width: 30px;
+    margin-left: 85px;
+    margin-top: 25px;
+    }
+
+    i{
+        align-items: center;
+        padding: 13px;
+    }
+    /*INICIO NAV E ITEM A */
+
+    .itemA {
+        grid-row: 1/2;
+        height: 752.5px;
+        display: flex;
+        flex-direction: column;
+        }
+        
+        
+        .itemA i{
+            padding-top: 25px;
+            padding-left: 20px;
+            margin-bottom: 25px;
+            margin-right: 10px;
+        }
+
+        .itemA i:hover{
+            cursor: pointer;
+        }
+        
+        input[type="checkbox"]
+        {
+            display: none;
+        }
+        
+        nav {
+            background-color: rgba(16, 16, 16, .5);
+            width: 350px;
+            height: 100%;
+            left: -351px;
+            position: absolute;
+            border-right: rgba(255, 255, 255, 0.4) solid 1px;
+            z-index: 1;
+        }
+        input[type="checkbox"]:checked ~ nav
+        {
+        transform: translateX(350px);
+        }
+        nav li{
+            list-style: none;
+        }
+        nav li:nth-of-type(1){
+            border-top: 1px rgba(255, 255, 255, 0.4) solid ;
+            margin-top: 25px;
+        }
+        nav li a{
+            display: block;
+            padding: 20px 30px;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav li a:hover
+        {
+            color: #991616;
+        }
+        label{
+        
+            padding: 15px;
+            position: absolute;
+            z-index: 2;
+        }
+        ul {
+        
+            position: absolute;
+            top: 70px;
+            width: 100%;
+        }
+
+/* INICIO LEBROM*/
+.melhorJogador{
+    width: 60vh;
+    margin-left: 60px;
+    color: white;
+    margin-top: 80px;
+}
+
+.melhorJogador h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.melhorJogador p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.melhorJogador button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #c81c1c;
+}
+
+.melhorJogador button:hover{
+    cursor: pointer;
+    background-color: #fff000;
+}
+
+/*FIM LEMBROM*/
+/*FIM DA NAV E ITEM A */
+
+.itemB {
+    display: flex;
+    grid-row: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+    align-items: center;
+}
+.itemB i{
+    align-items: center;
+    padding: 13px;
+}
+.itemB p {
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.itemB a i{
+    color: white;
+}
+.itemB a i:hover {
+    color: #221414;
+}
+.itemC {
+    grid-column: 2;
+    border-left: 1px solid rgba(255, 255, 255, 0.4);    ;
+
+}
+.itemC .p1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-left: 5%;
+    margin-top: 35%;
+}
+.itemC .p2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 5%;
+}
+.itemC .p3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+.itemC .p4 
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 4%;
+}
+.itemC .p5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+.itemC .p6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-left: 4%;
+}
+.itemC .p7 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-top: 5%;
+    margin-left: 4%
+}
+.itemC .p8 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-left: 4%;
+}
+.itemC .p9 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-top: 5%;
+    margin-left: 4%
+}
+.itemC .p10 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-left: 4%;
+}
+.melhorJogador h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    margin-top: -40px; 
+    margin-left: 500px;
     
 }
 
-.logo img {
-    height: 50px;
-    width: 30px;
-    padding-top: 25px;
-    padding-left: 85px;
+.melhorJogador p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.itemA i{
-    padding-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 10px;
-    margin-left: 20px;
+.lebron .card {
+
+    height: 200px;
+    width: 300px;
+    margin-left: 80px;
+    margin-bottom: 5px;
 }
 
-/*COMEÇO DA NAV */
-input[type="checkbox"]
-{
-    display: none;
-}
-nav {
-    background-color: rgba(16, 16, 16, .5);
-    width: 350px;
-    height: 100%;
-    left: -351px;
-    position: absolute;
-    border-right: rgba(255, 255, 255, 0.4) solid 1px;
-}
-
-
-input[type="checkbox"]:checked ~ nav
-{
-transform: translateX(350px);
-}
-nav li:nth-of-type(1){
-    border-top: 1px rgba(255, 255, 255, 0.4) solid ;
-    margin-top: 25px;
-}
-nav li a{
-display: block;
-padding: 20px 30px;
-color: white;
-font-family: 'Poppins', sans-serif;
-text-decoration: none;
-}
-nav li a:hover
-{
-    color: #991616;
-}
-label{
-
-    padding: 15px;
-    position: absolute;
-    z-index: 1;
-}
-ul {
-
-    position: absolute;
-    top: 70px;
+.lebron .card img{
     width: 100%;
+    height: 100%;
+   
+}
+
+.lebron2 .card {
+
+    height: 200px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: -520px;
+}
+
+.lebron2 .card img{
+    width: 100%;
+    height: 100%;
+   
+}
+.lb2 {
+    
+    margin-left: 500px;
+    width: 500px;
+    margin-top: 5px;
+    height: 300px;
 }

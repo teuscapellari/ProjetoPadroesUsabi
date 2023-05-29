@@ -1,26 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
-.container-md {
-    flex-flow: row wrap;
-}
 
-body {
-    background-image: url(/img/fundo2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+#imagem {
+    background-image: url(img/fundo7.jpg);
     
+    background-size: cover;
 }
+.logo img{
+    height: 50px;
+    width: 30px;
+    margin-left: 85px;
+    margin-top: 25px;
+    }
 
-h1{
-    font-family: 'arial', sans-serif;
-    font-size: 20px;
+.titulo{
+    font-family: 'Poppins';
+    font-size: 60px;
     color: white;
     margin-left: 20px;
     font-weight: bold;
     margin-right: 30px;
+    text-align: center;
+    
 }
+
 
 .container-md .card {
     height: 230px;
@@ -30,19 +37,21 @@ h1{
     margin: 10px;
     padding: 8px;
     margin-top: 90px;
+    border-radius: 5%;
+    
+    
 }
-
-
 .container-md img {
     width: 100%;
     height: 100%;
 }
-
 .descricao p {
     color: white;
     text-align: center;
-    
+    justify-content: center;
+    align-items: center;
 }
+
 .d2, .d3, .d1 {
     padding: 2px;
     margin: 2px;
@@ -50,8 +59,6 @@ h1{
     background-color: rgba(0, 0, 0, 0.5);
     
 }
-
-/*
 div p {
     color: black;
     
@@ -60,14 +67,87 @@ div p {
     font-weight: bold;
        
 }
-/*
+.container-md {
+    flex-flow: row wrap;
+}
+
 .p1, .p2 {
     margin-top: -4%;
 }
-*/
-.descricao p {
-    justify-content: center;
-    align-items: center;
+
+.itemA {
+    grid-row: 1/2;
+    height: 752.5px;
+    display: flex;
+    flex-direction: column;
+    }
     
+    
+    .itemA i{
+        padding-top: 25px;
+        padding-left: 20px;
+        margin-bottom: 25px;
+        margin-right: 10px;
+    }
+
+    .itemA i:hover{
+        cursor: pointer;
+    }
+    
+    input[type="checkbox"]
+    {
+        display: none;
+    }
+    
+    nav {
+        background-color: rgba(16, 16, 16, .5);
+        width: 350px;
+        height: 100%;
+        left: -351px;
+        position: absolute;
+        border-right: rgba(255, 255, 255, 0.4) solid 1px;
+        z-index: 1;
+    }
+    input[type="checkbox"]:checked ~ nav
+    {
+    transform: translateX(350px);
+    }
+    nav li:nth-of-type(1){
+        border-top: 1px rgba(255, 255, 255, 0.4) solid ;
+        margin-top: 25px;
+    }
+    nav li{
+        list-style: none;
+    }
+    nav li a{
+        display: block;
+        padding: 20px 30px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+    }
+    nav li a:hover
+    {
+        color: #991616;
+    }
+    label{
+    
+        padding: 15px;
+        position: absolute;
+        z-index: 2;
+    }
+    ul {
+    
+        position: absolute;
+        top: 70px;
+        width: 100%;
+    }
+/*
+
+
 }
+
+ 
+}
+
 
